@@ -178,7 +178,7 @@ export default {
     <input v-model.number="center.lng">
     <input v-model.number="center.lat">
     <input v-model.number="zoom">
-    <baidu-map 
+    <baidu-map
         class="map"
         :scroll-wheel-zoom="true"
         :center="center"
